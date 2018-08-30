@@ -1,0 +1,73 @@
+/*meta styles*/
+/*content style*/
+section {
+	padding: 100px 0;
+}
+
+.container {
+	font-family: "Microsoft JhengHei", Arial, sans-serif;
+}
+
+.top {
+	margin-top: 50px;
+}
+
+/*banner style*/
+.banner {
+	margin: 50px 0;
+}
+
+@media (max-width: 720px) {
+	.banner {
+		display: none;
+	}
+}
+
+/*footer style*/ 
+#footer {
+	background-color: #0059CB;
+	color: #FDFEFE;
+}
+
+.info p {
+	padding: 10px;
+}
+
+.info p a {
+	text-decoration: underline;
+	color: #FDFEFE;
+}
+
+.links ul li {
+	display: inline;
+	list-style-type: none;
+}
+
+.links ul li a {
+	text-decoration: none;
+}
+
+.fa {
+    padding: 35px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #FDFEFE;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/*index.html styles*/
+/*intro style*/
+.intro h2 {
+	color: #0059CB;
+}
+
+/*about.html styles*/
+.s-title {
+	color: #0059CB;
+}
